@@ -1,0 +1,15 @@
+apiVersion: experimental.kpack.pivotal.io/v1alpha1
+kind: Store
+metadata:
+  name: default
+spec:
+  sources:
+  - image: docker.io/jasonmorgan/tbs-dependencies-tanzu-buildpacks_java-15de6e2b72390463ffe276b34c3bb1e0@sha256:4b5c7dae5100f3adbceb4ee092da761ca7bafb401f0ddb2c90b1c71516ee29a8
+  - image: docker.io/jasonmorgan/tbs-dependencies-paketo-buildpacks_nodejs-30ec63a620272209c4281052927de2b5@sha256:11d9da1c54cdb1dcc170fbf5df4b90327c0ee8d313d61340a93f646f9350b19b
+  - image: docker.io/jasonmorgan/tbs-dependencies-paketo-buildpacks_go-ab9cc7b62fcf35e3b3e3bb3c49b3cb6b@sha256:e0db65ed551e127cbd20b0925bcff4e3217eab23f6d7e14df6184d139643cf77
+  - image: docker.io/jasonmorgan/tbs-dependencies-paketo-buildpacks_dotnet-core-5561a31d1d8acf0708f0183fb78f1291@sha256:bb46a070780111568a94a67fa27a52012426ca1c1746b226aa17e9156e6c7c8a
+  - image: docker.io/jasonmorgan/tbs-dependencies-paketo-buildpacks_php-8e7a5d9c6e1cc18964df0f33ecfc8715@sha256:ee61ed975f0825ee1bbc4f6c6298c9e3940a4d136b4a88f6544bee9e224c8d63
+  - image: docker.io/jasonmorgan/tbs-dependencies-paketo-buildpacks_httpd-4294cb617200d644870482878ca36b74@sha256:fd835150bc9884ab378527f197114489bce75e491790d9d43b1d37d600e2ee5b
+  - image: docker.io/jasonmorgan/tbs-dependencies-paketo-buildpacks_nginx-36ca35c5761cfd7051d458987659aea8@sha256:9ffff05536e9f6176dc60393469fd21994c6510ce3c8da9042a07d95b284cf41
+  - image: docker.io/jasonmorgan/tbs-dependencies-paketo-buildpacks_procfile-c17a4f8cb112b8c7a5ee3c49f75cce88@sha256:03381f3366339432744b1e1a72a7393582e3dda3efb548c909826f5cd0d7272e
+
